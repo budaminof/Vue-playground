@@ -22,6 +22,14 @@ export default {
 </script>
 
 <style scoped>
+.row {
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 </style>
 
 // @click.native =>

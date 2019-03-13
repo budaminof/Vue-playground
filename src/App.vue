@@ -3,7 +3,9 @@
     <app-header :qoutesCount="quotes.length" :maxQoutes="maxQoutes"></app-header>
     <app-new-quotes @quoteAdded="newQuote"></app-new-quotes>
     <app-quote-grid :quotes="quotes" @quoteDeleted="removeQoute"></app-quote-grid>
-    <div class="info-box">Info: click on a quote to delete it</div>
+    <div class="info-box">
+      <p>Info: click on a quote to delete it</p>
+    </div>
   </div>
 </template>
 
@@ -43,4 +45,16 @@ export default {
 </script>
 
 <style>
+body {
+  font-family: "Oswald", sans-serif;
+  color: rgb(21, 21, 21);
+}
+.info-box {
+  position: absolute;
+  bottom: 10px;
+  z-index: 10;
+  height: 50px;
+  width: 100vw;
+  background-color: white;
+}
 </style>

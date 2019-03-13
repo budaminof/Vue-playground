@@ -11,6 +11,12 @@ export default {
 </script>
 
 <style scoped>
+.quote {
+  width: 400px;
+  border: 1px solid rgb(21, 21, 21);
+  text-align: center;
+  margin: 10px;
+}
 </style>
 
 
