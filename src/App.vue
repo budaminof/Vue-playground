@@ -20,9 +20,9 @@ export default {
   data: function() {
     return {
       quotes: [
-        "life is beautiful",
-        "someone once said",
-        "also, winter is coming"
+        "Be the change you wish to see in the world",
+        "Curiosity killed the cat",
+        "Rome wasn’t built in a day"
       ],
       maxQoutes: 10
     };
